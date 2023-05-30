@@ -42,20 +42,28 @@ public class MainClass {
 		
 		switch(option) {
 		case 1 :{
+			System.out.println("Loading... Please wait.");
+            Thread.sleep(2000);
 			e.addEmployee();
 		break;
 		}
 		case 2 :{
+			System.out.println("Loading... Please wait.");
+			Thread.sleep(2000);
 			e.viewEmployee();
 		
 		break;}
 		case 3:
 		{
+			System.out.println("Loading... Please wait.");
+            Thread.sleep(2000);
 			e.serial();
 		break;
 		}
 		case 4:
 		{
+			System.out.println("Loading... Please wait.");
+            Thread.sleep(2000);
 			e.deserial();
 		break;
 		}
